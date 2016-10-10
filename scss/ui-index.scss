@@ -1,0 +1,23 @@
+#projects {
+	height:100%;
+}
+
+.slide {
+	position: absolute;
+	top:0;
+	left:0;
+	height: 0;							
+	width: 100%;
+
+	// this would be vendor prefixed:
+	transition: height 0.9s ease-in-out;
+}
+
+// so that slides can transition from bottom-up
+.slide:nth-child(1) { z-index:10 }
+.slide:nth-child(2) { z-index:9 }
+.slide:nth-child(3) { z-index:8 }
+
+.active.slide {
+	height: 100%;
+}
