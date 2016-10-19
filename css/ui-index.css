@@ -1,22 +1,9 @@
-#projects {
-  height: 100%; }
+.main-bg {
+  background-color: tomato;
+  background-size: cover; }
 
-.slide {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 0;
-  width: 100%;
-  transition: height 0.9s ease-in-out; }
+.the-what {
+  backround-size: cover; }
 
-.slide:nth-child(1) {
-  z-index: 10; }
-
-.slide:nth-child(2) {
-  z-index: 9; }
-
-.slide:nth-child(3) {
-  z-index: 8; }
-
-.active.slide {
-  height: 100%; }
+.fullWidth {
+  max-width: 100%; }

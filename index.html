@@ -12,10 +12,14 @@
   </head>
   <body>
     <div id="fullpage">
-        <div class="section">Some section</div>
-        <div class="section active">Some section</div>
-        <div class="section">Some section</div>
-        <div class="section">Some section</div>
+        <div class="row section main-bg fullWidth lazy" data-original="img/dirt-bike.jpg" style="background-image: url('img/dirt-bike.jpg');">
+          <div class="large-8 columns">1</div>
+          <div class="large-4 columns">2</div>
+        </div>
+        <div class="row section the-what fullWidth lazy" data-original="img/woman-desk.jpg" style="background-image: url('img/woman-desk.jpg');">
+          <div class="large-8 columns">1</div>
+          <div class="large-4 columns">2</div>
+        </div>
     </div>
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
@@ -27,9 +31,14 @@
     <script>
     $(document).ready(function() {
         $('#fullpage').fullpage({
+            menu: '#menu',
+            navigation: true,
             anchors:['firstPage', 'secondPage', 'thirdPage']
         });
     });
+    $("div.lazy").lazyload({
+      effect : "fadeIn"
+  });
     </script>
   </body>
 </html>
