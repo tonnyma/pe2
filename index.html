@@ -8,13 +8,25 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/ui-index.css">
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
-
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
   </head>
   <body>
     <div id="fullpage">
         <div class="row section main-bg fullWidth lazy" data-original="img/dirt-bike.jpg" style="background-image: url('img/dirt-bike.jpg');">
-          <div class="large-8 columns">1</div>
-          <div class="large-4 columns">2</div>
+          <div class="large-8 medium-8 small-8 columns">1</div>
+          <div class="large-4 medium-4 small-4 columns">
+              
+              <div class="row">
+                  <div class="penta-pe">
+                      <object class="pentagon" type="image/svg+xml" data="/img/pentagon.svg" mytubeprocessed="Y"></object>
+                      <h2 class="header-pe">PE</h2>
+                  </div>
+              
+              <h2 class="header-problems">Problems.com</h2></div>
+              <div class="row"><h1 class="wfisnb">When faster is <span>NOT</span> Better</h1></div>
+              <div class="row"><h3><span>Premature Ejaculation</span> may be the problem</h3></div>
+              <div class="row"><h4><span>scroll to learn more</h4></div>
+          </div>
         </div>
         <div class="row section the-what fullWidth lazy" data-original="img/woman-desk.jpg" style="background-image: url('img/woman-desk.jpg');">
           <div class="large-8 columns">1</div>
@@ -36,9 +48,11 @@
             anchors:['firstPage', 'secondPage', 'thirdPage']
         });
     });
+    </script>
+    <script>
     $("div.lazy").lazyload({
-      effect : "fadeIn"
-  });
+          effect : "fadeIn"
+      });
     </script>
   </body>
 </html>

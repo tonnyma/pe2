@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="65px" height="63px" viewBox="0 0 65 63" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="concept-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-867.000000, -83.000000)" fill="#F54244">
+            <g id="Group" transform="translate(867.000000, 83.000000)">
+                <path d="M30.4747231,0.83508649 C31.5929885,0.0224030645 33.3983332,0.0167914255 34.5243203,0.83508649 L63.4390223,21.848434 C64.5572877,22.6611174 65.1205054,24.3768248 64.6904166,25.700854 L53.6459832,59.7011645 C53.2188439,61.0161139 51.7615869,62.082091 50.3697903,62.082091 L14.6292531,62.082091 C13.247001,62.082091 11.7831489,61.0251937 11.3530601,59.7011645 L0.308626741,25.700854 C-0.118512627,24.3859046 0.434034002,22.666729 1.56002109,21.848434 L30.4747231,0.83508649 Z" id="Polygon"></path>
+            </g>
+        </g>
+    </g>
+</svg>

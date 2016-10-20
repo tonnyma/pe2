@@ -1,3 +1,17 @@
+$white: #ffffff;
+
+@font-face {
+    font-family: code-bold;
+    src: '/font/CODE-Bold.otf';
+    font-weight:400;
+}
+
+body, h2{
+    font-family: 'Rajdhani', sans-serif;
+}
+h1{
+    font-family: code-bold;
+}
 .main-bg{
     background-color:tomato;
     background-size: cover;
@@ -7,4 +21,40 @@
 }
 .fullWidth{
     max-width: 100%;
+}
+.pentagon{
+    position:absolute;
+    z-index: 1;
+}
+.header-pe{
+    z-index: 2;
+    position: relative;
+    color: $white;
+    font-weight:900;
+    left: 11px;
+    top: 10px;
+}
+.header-problems{
+    color: $white;
+    position: relative;
+    z-index: 3; 
+}
+.penta-pe{
+    width: 65px;
+    float:left;
+    position:relative;
+    bottom:11px;
+}
+h1.wfisnb{
+    color: $white;
+    width: 376px;
+    font-size: 60px;
+    letter-spacing: .06em;
+    line-height: 71px;
+    margin-bottom:100px;
+    margin-top:2em;
+
+    & span{
+        padding-bottom: 0px;
+        border-bottom: 4px solid white;    }
 }
