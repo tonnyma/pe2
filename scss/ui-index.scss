@@ -110,8 +110,16 @@ $rajdhani-font: 'Rajdhani', sans-serif;
 	font-weight: 900;
 	font-style: italic;
 }
+#fullpage{
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .no-margin{
     margin: 0;
+}
+body{
+    min-height: 768px;
+    background-color: #333333;
 }
 body, h2{
     font-family: 'Rajdhani', sans-serif;
@@ -121,8 +129,9 @@ h1{
 }
 .header-pe-row{
     font-size:40px;
-    position: relative;
+    position: absolute;
     top: 125px;
+    width: 8em;
 }
 .main-bg{
     background-color:tomato;
@@ -137,6 +146,8 @@ h1{
 .pentagon{
     position:absolute;
     z-index: 1;
+    top: 2px;
+    bottom: 2px;
 }
 .header-pe{
     z-index: 2;
@@ -165,11 +176,14 @@ h1.wfisnb{
     letter-spacing: .06em;
     line-height: 71px;
     margin-bottom:25px;
-    margin-top:6em;
 
     & span{
         padding-bottom: 0px;
         border-bottom: 4px solid white;    }
+}
+.btm-right-block{
+    position:absolute;
+    bottom: 0;
 }
 .pembtp{
     font-size:23px;
@@ -189,11 +203,15 @@ h4{
 .stlm{
     padding-bottom: 6%;
 }
+.hamburger-container{
+    position:absolute;
+    bottom: 0;
+    padding:25px;
+}
 .hamburger-menu{
-    position: absolute;
-    bottom: 45px;
     left:45px;
     cursor: hand;
+   
     
     &:hover{
         opacity: .9;
@@ -207,20 +225,36 @@ h4{
 .p-layout-right{
     height: 100%;
 }
+.p-layout-left{
+    background-color: $white;
+    height: 100%;
+}
 .tw-right{
     background-color: #666581; 
+    
+    &-blurb{
+        width: 84%;
+    	height: 60px;
+    	font-family: $rajdhani-font;
+    	font-size: 23px;
+    	line-height: 1.35;
+    	color: $white;
+    	padding-left: 25px;
+        border-left: 2px solid white;
+        margin-top: 11%;
+        margin-left: 10%;
+        padding-right:10%;
+    }
 }
 .intro-block{
-    width: 550px;
+    max-width: 70%;
     margin: 0 auto;
     margin-top: 19%;
 }
 .intro-blurb{
-    width: 586px;
     font-family: Lato;
     font-size: 16px;
     padding-top: 60px;
-    margin-left:-15px;
     line-height: 2em;
 }
 .intro-row{
@@ -228,9 +262,10 @@ h4{
 }
 .intro-header{
     height: 136px;
+    display:flex;
 }
 .section-anchor, .section-title{
-    float:left;
+    flex: 0 0 auto;
 }
 .section-title{
     font-size: 34px;
@@ -241,4 +276,51 @@ h4{
 }
 .section-anchor{
     width: 90px;
+}
+.tw-right-foot{
+    	font-family: $rajdhani-font;
+    	font-size: 20px;
+    	font-weight: 600;
+    	color: $white; 
+    	padding-left: 2.5em;
+        padding-right:1em;    	
+    	&-pos{
+        	position:absolute;
+        	bottom: 0;
+    	}
+}
+
+
+/* What is PE */
+
+
+.what-is-pe{
+    background-color:white;
+}
+.wiPE-title{
+    margin-left:16% !important;
+}
+.wiPE-parent{
+    margin: 3% 12% 0 16%;
+}
+.wiPE-item{
+    & p{
+        font-family: 'Lato';
+        font-size: 16px; 
+    }
+    &:nth-child(1){
+       padding-right:12%;
+    }
+    &:nth-child(2){
+       padding-right:12%;
+    }
+    &:nth-child(3){
+       padding-right:12%;
+    }
+}
+
+
+.ootmen, .watch, .stress{
+    margin: 0 auto;
+    padding-bottom:35px;
 }

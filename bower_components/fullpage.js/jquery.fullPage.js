@@ -146,7 +146,7 @@
             scrollOverflowOptions: null,
             touchSensitivity: 5,
             normalScrollElementTouchThreshold: 5,
-            bigSectionsDestination: null,
+            bigSectionsDestination: top,
 
             //Accessibility
             keyboardScrolling: true,

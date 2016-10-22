@@ -56,7 +56,9 @@
 
   @include foundation-global-styles;
   @if not $flex {
-    @include foundation-grid;
+    //@include foundation-grid;
+    @include foundation-flex-grid;
+    @include foundation-flex-classes;
   }
   @else {
     @include foundation-flex-grid;

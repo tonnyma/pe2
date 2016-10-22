@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="64px" height="69px" viewBox="0 0 64 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>04BE09BE-BC56-44A3-9140-061B6298571F</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="concept-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-Copy-2" transform="translate(-1056.000000, -262.000000)">
+            <g id="Group-16" transform="translate(1057.000000, 263.000000)">
+                <path d="M20.197783,64.242378 L20.197783,57.4397237 C20.197783,55.9503587 18.9948066,54.616144 17.536506,54.3523886 C17.536506,54.3523886 8.15565192e-16,53.9420942 0,29.743475 C8.15565173e-16,5.54485583 18.4288137,-2.7464867e-09 29.418496,0 C40.4081782,2.74647945e-09 55.9007437,8.35699252 55.9007469,25.1303045 L62,41.1382699 L56.7963669,41.1382699 L54.5468676,52.3190925 C54.2523621,53.7828909 52.8354875,55.1966376 51.3454936,55.4378803 C51.3454936,55.4378803 50.100345,55.8169936 46.8023617,55.8169927 L46.8023634,67" id="Path-2" stroke="#373634" stroke-width="1.35" stroke-linecap="round"></path>
+                <g id="Group-14" transform="translate(7.200000, 3.626667)"></g>
+                <g id="Group-15" transform="translate(7.200000, 2.720000)" stroke="#F54244" stroke-width="1.35" stroke-linecap="round">
+                    <path d="M51.4140346,1.75 L47.6905832,1.75" id="Path-4" stroke-linejoin="round"></path>
+                    <polyline id="Path-3" points="1 16.940119 8.14782408 24.1069361 15.6643403 16.5704472 26.0662534 27 51 2"></polyline>
+                    <path d="M51,1 L51,4.75" id="Path-4-Copy" stroke-linejoin="round" transform="translate(51.000000, 3.000000) scale(-1, -1) translate(-51.000000, -3.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
