@@ -4970,6 +4970,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/black-white-city.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.32796e+06,
+		"inputAbbreviatedPath": "\/img\/black-white-city.jpg",
+		"outputAbbreviatedPath": "\/img\/black-white-city.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/dirt-bike.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -4977,6 +4988,39 @@
 		"initialSize": 290415,
 		"inputAbbreviatedPath": "\/img\/dirt-bike.jpg",
 		"outputAbbreviatedPath": "\/img\/dirt-bike.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/guy-distance.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 869606,
+		"inputAbbreviatedPath": "\/img\/guy-distance.jpg",
+		"outputAbbreviatedPath": "\/img\/guy-distance.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pocket-watch.jpeg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 320413,
+		"inputAbbreviatedPath": "\/img\/pocket-watch.jpeg",
+		"outputAbbreviatedPath": "\/img\/pocket-watch.jpeg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/uk.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.69891e+06,
+		"inputAbbreviatedPath": "\/img\/uk.jpg",
+		"outputAbbreviatedPath": "\/img\/uk.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

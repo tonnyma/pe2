@@ -167,6 +167,9 @@ h4 {
     cursor: hand; }
 
 /* The What Section */
+.the-what-section {
+  border-bottom: 1px solid #777; }
+
 .p-layout-right {
   height: 100%; }
 
@@ -236,10 +239,14 @@ h4 {
   background-color: white; }
 
 .wiPE-title {
-  margin-left: 16% !important; }
+  margin-left: 19% !important; }
+
+.wiPE-title h2 {
+  font-weight: 600;
+  font-size: 30px; }
 
 .wiPE-parent {
-  margin: 3% 12% 0 16%; }
+  margin: 3% 12% 0 19%; }
 
 .wiPE-item p {
   font-family: 'Lato';
@@ -252,5 +259,144 @@ h4 {
   padding-right: 12%; }
 
 .ootmen, .watch, .stress {
-  margin: 0 auto;
   padding-bottom: 35px; }
+
+.ootmen {
+  margin: 0px 0 0 15%;
+  left: 50%; }
+
+.watch {
+  margin: 0px 0 0 35%;
+  left: 50%; }
+
+.stress {
+  margin: 0px 0 0 25%;
+  left: 50%; }
+
+/* The What Section */
+.consequences-left {
+  background: url("/img/guy-distance.jpg");
+  background-size: cover;
+  background-position: 50% 0%; }
+
+.right-title {
+  font-family: Rajdhani;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-right: 25%;
+  margin-bottom: 10%;
+  line-height: 1.2em; }
+
+.right-blurb {
+  font-family: Lato;
+  font-size: 16.2px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 4%;
+  margin-right: 15%; }
+
+/* The Study Section */
+.ts-right {
+  background-color: #807f7f; }
+
+/* Investigational Section */
+.invd-left {
+  background: url("/img/woman-desk.jpg");
+  background-size: cover;
+  background-position: 20% 0%; }
+
+.rassessed-left {
+  background: url("/img/pocket-watch.jpeg");
+  background-size: 400%;
+  background-position-x: 39.5%;
+  background-position-y: 40%; }
+
+.sp-right {
+  background-color: #5a5a66; }
+
+.info-pages {
+  background-color: #4d4d58; }
+
+.info-column-border {
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  height: 100%; }
+
+.info-columns {
+  height: 100%; }
+
+.info-title {
+  font-family: Rajdhani;
+  font-size: 30px;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 10%;
+  margin-right: 15%;
+  margin-bottom: 10%;
+  line-height: 1.2em; }
+
+.info-blurb {
+  font-family: Lato;
+  font-size: 16.2px;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 4%;
+  margin-right: 10%; }
+
+.info-list {
+  color: white;
+  list-style: none;
+  margin-left: 10%; }
+
+.usa-left {
+  background: url("/img/black-white-city.jpg");
+  background-size: cover;
+  background-position-x: 39.5%;
+  background-position-y: 40%; }
+
+.usa-right {
+  background-color: #496f6f; }
+
+.country-title {
+  background-color: white;
+  height: 84px;
+  padding-left: 20px; }
+
+.usa-info-listing {
+  background-color: #476b6b; }
+
+.info-title-category {
+  font-family: Rajdhani;
+  font-size: 18px;
+  color: #ffffff;
+  margin-left: 15%;
+  margin-top: 20%;
+  margin-right: 15%;
+  margin-bottom: 0;
+  font-weight: 600;
+  line-height: 15px; }
+
+.info-title2 {
+  margin-top: 0;
+  margin-bottom: 10%; }
+
+.listing-padding {
+  margin-top: 20%; }
+
+.info-blurb-title {
+  font-weight: 900; }
+
+.line {
+  width: 60px;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.22);
+  margin-left: 15%; }
+
+.uk-left {
+  background: url("/img/uk.jpg");
+  background-size: cover;
+  background-position-x: 39.5%;
+  background-position-y: 40%; }
