@@ -6,24 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Tonny 2</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/style1.css">
     <link rel="stylesheet" href="css/ui-index.css">
     <script type="text/javascript" src="bower_components/fullpage.js/vendors/scrolloverflow.min.js"></script>
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
     <link href="https://fonts.googleapis.com/css?family=Rajdhani" rel="stylesheet">
-    <script>
-        $(window).on('resize',function(){location.reload();});
-    </script>
   </head>
   <body>
+    <div class="hamburger-container">
+        <button id="trigger-overlay" type="button"><div class="hamburger-menu"></div></button>
+    </div>
+	<div class="overlay overlay-hugeinc">
+		<button type="button" class="overlay-close">Close</button>
+		<nav>
+			<ul>
+				<li><a href="#a-main">Home</a></li>
+				<li><a href="#a-the-what">The What</a></li>
+				<li><a href="#a-the-study">The Study</a></li>
+				<li><a href="#participation">Study Participation</a></li>
+				<li><a href="#usa-listing">USA Study Centers</a></li>
+				<li><a href="#uk-listing">UK Study Centers</a></li>
+			</ul>
+		</nav>
+	</div>
+	
     <div id="fullpage">
         
-    <div class="row section main-bg fullWidth lazy" data-original="img/dirt-bike.jpg" style="background-image: url('img/dirt-bike.jpg');">
+    <div class="row section main-bg fullWidth lazy fp-auto-height-responsive" data-original="img/dirt-bike.jpg" style="background-image: url('img/dirt-bike.jpg');">
           <div class="large-8 medium-9 small-10 columns">
-            <div class="hamburger-container">
-                  <div class="hamburger-menu">
-                    <object class="hamburger" type="image/svg+xml" data="/img/hamburger-menu.svg" mytubeprocessed="Y"></object>
-                  </div>
-              </div>
+            
           </div>
           <div class="large-4 medium-5 small-6 columns" style="margin-right:60px;">
               <div class="row header-pe-row">
@@ -41,7 +53,7 @@
           </div>
         </div>
         
-        <div class="row no-margin fullWidth lazy section the-what-section">
+        <div class="row no-margin fullWidth lazy section the-what-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left">
               <div class="intro-block">
                   <div class="intro-row">
@@ -64,7 +76,7 @@
           </div>
         </div>
         
-        <div class="row section what-is-pe fullWidth lazy">
+        <div class="row section what-is-pe fullWidth lazy fp-auto-height-responsive">
           <div class="row wiPE-title">
               <h2>What is premature ejaculation?</h2>
           </div>
@@ -86,7 +98,7 @@
           </div>
         </div>
 
-        <div class="row no-margin fullWidth lazy section consequences-section">
+        <div class="row no-margin fullWidth lazy section consequences-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left consequences-left">
              <div class="intro-block">
              </div>       
@@ -100,7 +112,7 @@
           </div>
         </div>    
 
-        <div class="row no-margin fullWidth lazy section the-study-section">
+        <div class="row no-margin fullWidth lazy section the-study-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left the-study-left">
              <div class="intro-block">
                   <div class="intro-row">
@@ -124,7 +136,7 @@
           </div>
         </div>   
 
-        <div class="row no-margin fullWidth lazy section invd-section">
+        <div class="row no-margin fullWidth lazy section invd-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left invd-left">
              <div class="intro-block">
              </div>       
@@ -141,7 +153,7 @@
           </div>
         </div>  
  
-         <div class="row no-margin fullWidth lazy section rassessed-section">
+         <div class="row no-margin fullWidth lazy section rassessed-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left rassessed-left">
              <div class="intro-block">
              </div>       
@@ -157,20 +169,20 @@
           </div>
         </div>  
 
-        <div class="row no-margin fullWidth lazy section the-study-section">
-          <div class="large-8 medium-6 small-12 columns p-layout-left the-study-left">
+        <div class="row no-margin fullWidth lazy section the-study-section fp-auto-height-responsive">
+          <div class="large-8 medium-12 small-12 columns p-layout-left the-study-left">
              <div class="intro-block">
                   <div class="intro-row">
                       <div class="intro-header">
                         <div class="section-anchor">
                             <object class="black-shape-anchor" type="image/svg+xml" data="/img/shape-anchor.svg" mytubeprocessed="Y"></object>
                         </div>
-                        <h2 class="section-title">STUDY PARTICIPATION</h2>
+                        <h2 class="section-title study-participation">STUDY PARTICIPATION</h2>
                       </div>
                     </div>
               </div>     
           </div>
-          <div class="large-4 medium-6 small-12 columns p-layout-right sp-right">
+          <div class="large-4 medium-12 small-12 columns p-layout-right sp-right">
               <div class="row">
                   <p class="right-title">Who may participate in the study?<p>
                   <p class="right-blurb">
@@ -189,9 +201,9 @@
         </div>  
 
     
-        <div class="row section info-pages fullWidth lazy">
+        <div class="row section info-pages fullWidth lazy fp-auto-height-responsive">
             <div class="slide" data-anchor="slide1">
-                <div class="large-4 medium-12 small-4 columns info-columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-columns info-column-border">
                   <p class="info-title">What Will Happen If I Participate In This Clinical Study?<p>
                   <p class="info-blurb">
                       A detailed explanation of what will happen if you participate will be provided by the study team, and you will have the opportunity to have all of your questions answered. If you decide to participate in the study, you will be assessed to determine if you are fully eligible for the study. If you are eligible, you will receive the investigational drug and will be followed for a minimum of 3 months to assess your response. The investigational drug and all study related care will be provided to you at no cost.
@@ -199,7 +211,7 @@
                       You will need to attend the research clinic/office on several occasions during the 3 month follow-up period (the study team will be able to explain when you should attend). The majority of visits to the research clinic will be short (approximately 1 hour each). You will be compensated for the cost of travel to the clinic.
                       <p>
                 </div>
-                <div class="large-4 medium-12 small-4 columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-column-border">
                   <p class="info-title">What Should I Do To Find Out More Information About Participating In This Study?<p>
                   <p class="info-blurb">
                       You will need to contact us (see details below under Contact Details). 
@@ -225,7 +237,7 @@
                         </p>
                       
                 </div>
-                <div class="large-4 medium-4 small-4 columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-column-border end-slide">
                   <p class="info-title">Does my partner need to participate?<p>
                   <p class="info-blurb">
                   Your female partner will need to attend at least one visit to the clinic/office or videoconference in order to have the study explained and to be trained on the use of the stopwatch. The research team will show both of you how to use the stopwatch and record the results. It will not be necessary for your partner to attend any further visits.
@@ -233,13 +245,13 @@
                 </div>  
             </div><!-- end slide -->
             <div class="slide" data-anchor="slide1">
-                <div class="large-4 medium-12 small-4 columns info-columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-columns info-column-border">
                   <p class="info-title">Where Is The Study Being Performed?<p>
                   <p class="info-blurb">
                       The study is being performed in the USA and UK. All the study teams are led by doctors experienced in conducting clinical research of premature ejaculation. Men with premature ejaculation (PE) from anywhere in the USA or UK can participate in the study.
                       <p>
                 </div>
-                <div class="large-4 medium-12 small-4 columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-column-border">
                   <p class="info-title">How Do I Get More Information?<p>
                   <p class="info-blurb">
                       Please contact us to find out more information about the study and to see if you are eligible to participate.
@@ -248,13 +260,13 @@
                       We look forward to hearing from you.
                   </p>
                 </div>
-                <div class="large-4 medium-4 small-4 columns info-column-border">
+                <div class="large-4 medium-4 small-12 columns info-column-border">
 
                 </div>  
             </div><!-- end slide -->
         </div>
 
-        <div class="row no-margin fullWidth lazy section usa-section">
+        <div class="row no-margin fullWidth lazy section usa-section fp-auto-height-responsive">
           <div class="large-8 medium-6 small-12 columns p-layout-left usa-left">
              <div class="intro-block">
                   <div>
@@ -279,14 +291,16 @@
                       Phone number
                       <br /><br />
                       Best time to call you, if applicable</p>
-                  
+                    <p class="right-blurb right-contact-blurb">
+                       Click the ‘Contact Us’ button on the left.  
+                    </p>
               </div>
           </div>
         </div>  
 
-        <div class="row section usa-info-listing fullWidth lazy">
+        <div class="row section usa-info-listing fullWidth lazy fp-auto-height-responsive">
             <div class="slide" data-anchor="slide1">
-                <div class="large-4 medium-12 small-4 columns info-columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-columns info-column-border">
                   <p class="info-title-category">USA STUDY CENTERS</p>
                   <p class="info-title info-title2">LOS ANGELES<p>
                   <p class="info-blurb info-blurb-title">LA Biomed Research Institute at Harbor-UCLA - Medical Center Professional Building  </p> 
@@ -300,7 +314,7 @@
                     Email: infousa@peproblems.com <br/>
                     <p>
                 </div>
-                <div class="large-4 medium-12 small-4 columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-column-border">
                   <p class="info-title listing-padding">NEW YORK<p>
                   <p class="info-blurb info-blurb-title">Manhattan Medical Research </p> 
                   <div class="line"></div>   
@@ -317,7 +331,7 @@
                     Site URL: www.manhattanmedicalresearch.com<br/>
                       <p>
                 </div>
-                <div class="large-4 medium-4 small-4 columns info-column-border">
+                <div class="large-4 medium-12 small-12 columns info-column-border end-slide">
                   <p class="info-title listing-padding">CONNECTICUT<p>
                   <p class="info-blurb info-blurb-title">Connecticut Clinical Research Center, LLC </p>
                   <div class="line"></div>    
@@ -334,29 +348,44 @@
                 </div>  
             </div><!-- end slide -->
             <div class="slide" data-anchor="slide1">
-                <div class="large-4 medium-12 small-4 columns info-columns info-column-border">
-                  <p class="info-title">Where Is The Study Being Performed?<p>
+                <div class="large-4 medium-12 small-12 columns info-column-border">
+                  <p class="info-title listing-padding">LOUISIANA<p>
+                  <p class="info-blurb info-blurb-title">Tulane University School of Medicine</p> 
+                  <div class="line"></div>   
                   <p class="info-blurb">
-                      The study is being performed in the USA and UK. All the study teams are led by doctors experienced in conducting clinical research of premature ejaculation. Men with premature ejaculation (PE) from anywhere in the USA or UK can participate in the study.
+                   Dr. Wayne J.G. Hellstrom, MD, FACS<br/>
+                    Contact: infoUSA@PEproblems.com<br/>
+                    Department of Urology<br/>
+                    Tulane University School of Medicine<br/>
+                    1430 Tulane Ave. SL-42 Room 3520B<br/>
+                    New Orleans, LA 70112<br/>
+                    Main Phone: 1-888-617-5977<br/>
+                    Email: infoUSA@PEproblems.com<br/>
                       <p>
                 </div>
-                <div class="large-4 medium-12 small-4 columns info-column-border">
-                  <p class="info-title">How Do I Get More Information?<p>
+                <div class="large-4 medium-4 small-12 columns info-column-border end-slide">
+                  <p class="info-title listing-padding">CONNECTICUT<p>
+                  <p class="info-blurb info-blurb-title">Connecticut Clinical Research Center, LLC </p>
+                  <div class="line"></div>    
                   <p class="info-blurb">
-                      Please contact us to find out more information about the study and to see if you are eligible to participate.
-
-                      Asking for more information about the study does not mean that you are willing to participate. Before you make the final decision to participate in the study, you and your partner will be provided detailed written and verbal information and be given the opportunity to have all of your questions answered.
-                      We look forward to hearing from you.
-                  </p>
+                    Dr. Stephen Siegel<br/>
+                    Contact: Brendaliz Fontanez<br/>
+                    1579 Straits Turnpike, Suite 2A<br/>
+                    Middlebury, CT 06762<br/>
+                    Phone: 203-754-3588 ext 368<br/>
+                    Fax: 203-758-1288<br/>
+                    Email: bfontanez@ctclinicalresearchcenter.com<br/>
+                    Site URL: www.ctclinicalresearchcenter.com<br/>
+                <p>
                 </div>
-                <div class="large-4 medium-4 small-4 columns info-column-border">
+                <div class="large-4 medium-4 small-12 columns info-column-border">
 
                 </div>  
             </div><!-- end slide -->
         </div>
 
-        <div class="row no-margin fullWidth lazy section usa-section">
-          <div class="large-8 medium-6 small-12 columns p-layout-left uk-left">
+        <div class="row no-margin fullWidth lazy section uk-section fp-auto-height-responsive" data-equalizer="foo">
+          <div class="large-8 medium-7 small-12 columns uk-left" data-equalizer-watch="foo">
              <div class="intro-block">
                   <div>
                       <div class="intro-header">
@@ -365,28 +394,82 @@
                     </div>
               </div>     
           </div>
-          <div class="large-4 medium-6 small-12 columns p-layout-right usa-right">
+          <div class="large-4 medium-5 small-12 columns p-layout-right uk-right" style="height:100%;" data-equalizer-watch="foo">
               <div class="row">
                   <p class="right-title">United Kingdom <br />0800-810-8300 or 0330-880-8300<p>
-                  <p class="right-blurb">
-                      Please leave the following information on the voicemail. You will be contacted by a study center near you to discuss the study and your travel options.
+                  <p class="right-blurb uk-blurb">
+                      Men with premature ejaculation (PE) from anywhere in the UK can participate in the study. Please contact the phone numbers listed below.
+                      <br /><br />
+                      You will be asked some preliminary questions on the telephone and will then have your details passed to your nearest study clinic.
+                      <br /><br />
+                      If you reach an answering machine, then please clearly leave the following details, so that we can call you back at an appropriate time.
                       <br /><br />
                       Name
+                      <br />
+                      Address (Town and Postcode)
+                      <br />
+                      Email address
+                      <br />
+                      Contact phone number
+                      Best time to call you
                       <br /><br />
-                      City, State and Zip code
+                      When you receive the call from us, you will be asked some initial questions on the telephone and will then have your details passed to your nearest study clinic.
                       <br /><br />
-                      Email address (please spell out and repeat)
-                      <br /><br />
-                      Phone number
-                      <br /><br />
-                      Best time to call you, if applicable</p>
+                      Note: By providing your contact details (via email or telephone) you agree for this information to be used for the purpose of contacting you to provide more information about the study. Such information will not be shared with anyone except study clinic personnel. If following your initial contact you do not wish for your contact information to be retained by any study clinic and you wish for your information to be destroyed, then please contact us again (via email or telephone) so that we can discard the information you have provided to us.
+                      </p>
                   
               </div>
           </div>
         </div>  
 
+        <div class="row section usa-info-listing fullWidth lazy">
+            <div class="slide" data-anchor="slide1">
+                <div class="large-4 medium-12 small-12 columns info-columns info-column-border">
+                  <p class="info-title-category">UNITED KINGDOM STUDY CENTERS</p>
+                  <p class="info-title info-title2">PADDINGTON<p>
+                  <p class="info-blurb info-blurb-title">JEFFERISS WING SEXUAL HEALTH CLINIC (CTC)</p> 
+                  <div class="line"></div>   
+                  <p class="info-blurb">
+                    Dr. David Goldmeier<br/>
+                    Contact: Wilbert Ayap: Research Charge Nurse<br/>
+                    Winston Churchill Wing, Clinical Trials Centre<br/>
+                    St. Mary's Campus, Praed Street <br/>
+                    Paddington, London<br/>
+                    W2 1NY, United Kingdom<br/>
+                    Phone: 0203 312 6499, 0800-810-8300 or 0330-880-8300<br/>
+                    Email: ctc@imperial.nhs.uk <br/>
+                    Site URL: https://www.imperial.nhs.uk/our-services/sexual-health-and-hiv/sexual-health<br/>
+                    <p>
+                </div>
+                <div class="large-4 medium-12 small-12 columns info-column-border">
+                  <p class="info-title listing-padding">DENAMRK HILL<p>
+                  <p class="info-blurb info-blurb-title">KING'S COLLEGE HOSPITAL NHS FOUNDATION TRUST</p> 
+                  <div class="line"></div>   
+                  <p class="info-blurb">
+                   Mr. Gordon Muir<br/>
+                    Contact: Giona Simone<br/>
+                    King's College Hospital<br/>
+                    Denmark Hill<br/>
+                    London, SE5 9RS, United Kingdom<br/>
+                    Phone: 0800-810-8300 or 0330-880-8300<br/>
+                    Email: infoEU@PEproblems.com<br/>
+                      <p>
+                </div>
+                <div class="large-4 medium-4 small-12 columns info-column-border">
+
+                </div>  
+            </div><!-- end slide -->
+
+
+                </div>  
+            </div><!-- end slide -->
+        </div>
+
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
+    <script src="js/modernizr.custom.js"></script>
+    <script type="text/javascript" src="js/classie.js"></script>
+    <script type="text/javascript" src="js/demo1.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
@@ -396,7 +479,7 @@
         $('#fullpage').fullpage({
             menu: '#menu',
             navigation: true,
-            anchors:['a-main', 'a-the-what', 'a-whatispe', 'a-consequences','a-the-study','a-invd','something']
+            anchors:['a-main', 'a-the-what', 'a-whatispe', 'a-consequences','a-the-study','a-invd','assessed','participation','participation-details','usa','usa-listing','uk','uk-listing']
         });
     });
     </script>

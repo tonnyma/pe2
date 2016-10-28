@@ -86,6 +86,10 @@ h1 {
   position: absolute;
   top: 125px;
   width: 8em; }
+  @media screen and (max-width: 39.9375em) {
+    .header-pe-row {
+      right: 5%;
+      top: 10%; } }
 
 .main-bg {
   background-color: tomato;
@@ -116,6 +120,10 @@ h1 {
   position: relative;
   z-index: 3; }
 
+@media screen and (max-width: 39.9375em) {
+  h2 {
+    font-size: 38px; } }
+
 .penta-pe {
   width: 65px;
   float: left;
@@ -129,6 +137,10 @@ h1.wfisnb {
   letter-spacing: .06em;
   line-height: 71px;
   margin-bottom: 25px; }
+  @media screen and (max-width: 39.9375em) {
+    h1.wfisnb {
+      font-size: 2em;
+      line-height: 1.3em; } }
   h1.wfisnb span {
     padding-bottom: 0px;
     border-bottom: 4px solid white; }
@@ -143,6 +155,10 @@ h1.wfisnb {
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 25px; }
+  @media screen and (max-width: 39.9375em) {
+    .pembtp {
+      font-size: 1em;
+      width: 70%; } }
   .pembtp span {
     color: red; }
 
@@ -157,11 +173,16 @@ h4 {
 .hamburger-container {
   position: absolute;
   bottom: 0;
-  padding: 25px; }
+  padding: 25px;
+  z-index: 999; }
 
 .hamburger-menu {
   left: 45px;
-  cursor: hand; }
+  cursor: hand;
+  height: 50px;
+  width: 50px;
+  background: url("/img/group-4.png");
+  z-index: 1000; }
   .hamburger-menu:hover {
     opacity: .9;
     cursor: hand; }
@@ -179,6 +200,9 @@ h4 {
 
 .tw-right {
   background-color: #666581; }
+  @media screen and (max-width: 39.9375em) {
+    .tw-right {
+      display: none; } }
   .tw-right-blurb {
     width: 84%;
     height: 60px;
@@ -202,9 +226,15 @@ h4 {
   font-size: 16px;
   padding-top: 60px;
   line-height: 2em; }
+  @media screen and (max-width: 39.9375em) {
+    .intro-blurb {
+      margin-bottom: 90px; } }
 
 .intro-row {
   border-bottom: 2px solid #222222; }
+  @media screen and (max-width: 39.9375em) {
+    .intro-row {
+      border-bottom: none; } }
 
 .intro-header {
   height: 136px;
@@ -219,6 +249,9 @@ h4 {
   text-transform: uppercase;
   padding: 19px;
   padding-left: 35px; }
+  @media screen and (max-width: 39.9375em) {
+    .section-title {
+      padding-left: 10px; } }
 
 .section-anchor {
   width: 90px; }
@@ -240,6 +273,10 @@ h4 {
 
 .wiPE-title {
   margin-left: 19% !important; }
+  @media screen and (max-width: 39.9375em) {
+    .wiPE-title {
+      margin-top: 25%;
+      margin-bottom: 10%; } }
 
 .wiPE-title h2 {
   font-weight: 600;
@@ -253,8 +290,14 @@ h4 {
   font-size: 16px; }
 .wiPE-item:nth-child(1) {
   padding-right: 12%; }
+  @media screen and (max-width: 39.9375em) {
+    .wiPE-item:nth-child(1) {
+      margin-bottom: 30%; } }
 .wiPE-item:nth-child(2) {
   padding-right: 12%; }
+  @media screen and (max-width: 39.9375em) {
+    .wiPE-item:nth-child(2) {
+      margin-bottom: 30%; } }
 .wiPE-item:nth-child(3) {
   padding-right: 12%; }
 
@@ -288,6 +331,9 @@ h4 {
   margin-right: 25%;
   margin-bottom: 10%;
   line-height: 1.2em; }
+  @media screen and (max-width: 39.9375em) {
+    .right-title {
+      margin-top: 50px; } }
 
 .right-blurb {
   font-family: Lato;
@@ -297,22 +343,34 @@ h4 {
   margin-left: 15%;
   margin-top: 4%;
   margin-right: 15%; }
+  @media screen and (max-width: 39.9375em) {
+    .right-blurb {
+      margin-bottom: 30%; } }
 
 /* The Study Section */
 .ts-right {
   background-color: #807f7f; }
+  @media screen and (max-width: 39.9375em) {
+    .ts-right {
+      padding-bottom: 10px; } }
 
 /* Investigational Section */
 .invd-left {
   background: url("/img/woman-desk.jpg");
   background-size: cover;
   background-position: 20% 0%; }
+  @media screen and (max-width: 39.9375em) {
+    .invd-left {
+      min-height: 200px; } }
 
 .rassessed-left {
   background: url("/img/pocket-watch.jpeg");
   background-size: 400%;
   background-position-x: 39.5%;
   background-position-y: 40%; }
+  @media screen and (max-width: 39.9375em) {
+    .rassessed-left {
+      min-height: 200px; } }
 
 .sp-right {
   background-color: #5a5a66; }
@@ -351,6 +409,7 @@ h4 {
   list-style: none;
   margin-left: 10%; }
 
+/* USA Section */
 .usa-left {
   background: url("/img/black-white-city.jpg");
   background-size: cover;
@@ -364,6 +423,10 @@ h4 {
   background-color: white;
   height: 84px;
   padding-left: 20px; }
+  @media screen and (max-width: 39.9375em) {
+    .country-title {
+      position: relative;
+      left: -4%; } }
 
 .usa-info-listing {
   background-color: #476b6b; }
@@ -395,8 +458,41 @@ h4 {
   background-color: rgba(255, 255, 255, 0.22);
   margin-left: 15%; }
 
-.uk-left {
-  background: url("/img/uk.jpg");
+.uk-section {
+  background: url(/img/uk.jpg);
   background-size: cover;
   background-position-x: 39.5%;
   background-position-y: 40%; }
+
+.right-contact-blurb {
+  margin-top: 65px; }
+
+.uk-right {
+  background-color: #6a84a1; }
+
+.uk-blurb {
+  font-size: 13px; }
+
+.fp-controlArrow.fp-next {
+  right: 45px !important; }
+
+@media screen and (max-width: 39.9375em) {
+  .end-slide {
+    padding-bottom: 10%; } }
+
+@media screen and (max-width: 39.9375em) {
+  .study-participation {
+    font-size: 1.5em;
+    width: 80%;
+    position: relative;
+    top: -10px;
+    left: 10px; } }
+
+.overlay {
+  z-index: 1000; }
+
+.overlay nav {
+  font-size: 3em; }
+  @media screen and (max-width: 39.9375em) {
+    .overlay nav {
+      font-size: 2em; } }

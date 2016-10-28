@@ -126,7 +126,7 @@
             //scrolling
             css3: true,
             scrollingSpeed: 700,
-            autoScrolling: true,
+            autoScrolling: false,
             fitToSection: true,
             fitToSectionDelay: 1000,
             easing: 'easeInOutCubic',
@@ -139,9 +139,9 @@
             scrollHorizontally: true,
             interlockedSlides: false,
             resetSliders: false,
-            fadingEffect: false,
+            fadingEffect: true,
             normalScrollElements: null,
-            scrollOverflow: false,
+            scrollOverflow: true,
             scrollOverflowHandler: iscrollHandler,
             scrollOverflowOptions: null,
             touchSensitivity: 5,
@@ -189,7 +189,7 @@
         var isTouch = (('ontouchstart' in window) || (navigator.msMaxTouchPoints > 0) || (navigator.maxTouchPoints));
         var container = $(this);
         var windowsHeight = $window.height();
-        var isResizing = false;
+        var isResizing = true;
         var isWindowFocused = true;
         var lastScrolledDestiny;
         var lastScrolledSlide;
