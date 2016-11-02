@@ -1,7 +1,7 @@
 (function() {
-	var triggerBttn = document.getElementById( 'trigger-overlay2' ),
-		overlay = document.querySelector( 'div.overlay2' ),
-		closeBttn = overlay.querySelector( 'button.overlay-close2' );
+	var triggerBttn = document.getElementById( 'trigger-overlay' ),
+		overlay = document.querySelector( 'div.overlay' ),
+		closeBttn = overlay.querySelector( 'button.overlay-close' );
 		transEndEventNames = {
 			'WebkitTransition': 'webkitTransitionEnd',
 			'MozTransition': 'transitionend',

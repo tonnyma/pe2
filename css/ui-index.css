@@ -73,7 +73,8 @@
 
 body {
   min-height: 768px;
-  background-color: #333333; }
+  background-color: #333333;
+  color: #333; }
 
 body, h2 {
   font-family: 'Rajdhani', sans-serif; }
@@ -148,6 +149,10 @@ h1.wfisnb {
 .btm-right-block {
   position: absolute;
   bottom: 0; }
+  @media screen and (max-width: 39.9375em) {
+    .btm-right-block {
+      bottom: 100px;
+      left: 10%; } }
 
 .pembtp {
   font-size: 23px;
@@ -186,6 +191,12 @@ h4 {
   .hamburger-menu:hover {
     opacity: .9;
     cursor: hand; }
+
+.contact-us-btn {
+  height: 50px;
+  width: 165px;
+  background: url("/img/contact-us-btn.svg");
+  background-size: cover; }
 
 /* The What Section */
 .the-what-section {
@@ -496,3 +507,53 @@ h4 {
   @media screen and (max-width: 39.9375em) {
     .overlay nav {
       font-size: 2em; } }
+
+.placeholder {
+  background: transparent;
+  border-top: transparent !important;
+  border-left: transparent !important;
+  border-right: transparent !important;
+  border-bottom: 4px solid !important;
+  font-weight: 200;
+  color: white;
+  padding-left: 0;
+  box-shadow: none !important;
+  transition: all 0.5s ease; }
+
+.placeholder:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding-left: 10px; }
+
+label span {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600; }
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.5); }
+
+:-moz-placeholder {
+  /* Firefox 18- */
+  color: white; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white; }
+
+:-ms-input-placeholder {
+  color: white; }
+
+.contact-layout-left {
+  color: white; }
+  .contact-layout-left .intro-row {
+    border-bottom: 1px solid white; }
+
+.contact-layout-right {
+  padding: 5%; }
+
+.sendButton {
+  width: 163px;
+  height: 50px;
+  border-radius: 2.5px;
+  background-color: #626061;
+  box-shadow: none; }

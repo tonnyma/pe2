@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/demo.css">
     <link rel="stylesheet" href="css/style1.css">
+    <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/ui-index.css">
     <script type="text/javascript" src="bower_components/fullpage.js/vendors/scrolloverflow.min.js"></script>
     <link rel="stylesheet" type="text/css" href="bower_components/fullpage.js/jquery.fullPage.css" />
@@ -16,6 +17,7 @@
   <body>
     <div class="hamburger-container">
         <button id="trigger-overlay" type="button"><div class="hamburger-menu"></div></button>
+        <button id="trigger-overlay2" type="button"><div class="contact-us-btn"></div></button>
     </div>
 	<div class="overlay overlay-hugeinc">
 		<button type="button" class="overlay-close">Close</button>
@@ -30,7 +32,71 @@
 			</ul>
 		</nav>
 	</div>
-	
+
+	<div class="overlay2 overlay-hugeinc" style="z-index:10000;">
+        <div class="row no-margin fullWidth lazy section the-what-section fp-auto-height-responsive">
+          <div class="large-7 medium-12 small-12 columns contact-layout-left">
+              <div class="intro-block">
+                  <div class="intro-row">
+                      <div class="intro-header">
+                        <div class="section-anchor">
+                            <object class="black-shape-anchor" type="image/svg+xml" data="/img/shape-anchor.svg" mytubeprocessed="Y"></object>
+                        </div>
+                        <h2 class="section-title">Contact Us</h2>
+                      </div>
+                    </div>
+                  <p class="intro-blurb">You may contact a study center directly, at your preference. Men with premature ejaculation (PE) from anywhere in the USA can participate in the study. If you do not see a study center near you then please contact us using the phone number or email listed above and we will help you locate the nearest study center.</p>
+              </div>       
+          </div>
+          <div class="large-5 medium-12 small-12 columns contact-layout-right">
+              <div class="row">
+              <div id="contact_form">
+        	
+		    <form name="form1" id="ff" method="post" action="/insert.php">
+		        <label>
+				<span>Name:</span>
+		        <input type="text" placeholder="Please enter your name" name="name" id="name" required="" class="placeholder small-12">
+		        </label>
+		        
+		        <label>
+				<span>City:</span>    
+				<input type="text" placeholder="Please enter your city" name="city" id="city" required="" class="placeholder small-12">
+		        </label>
+		        
+		        <label>
+				<span>State:</span>    
+				<input type="text" placeholder="Please enter your state" name="state" id="state" required="" class="placeholder small-12">
+		        </label>
+		        
+		         <label>
+				<span>Zip Code:</span>    
+				<input type="text" placeholder="Please enter your zip" name="zip" id="zip" required="" class="placeholder small-12">
+		        </label>
+		        
+		        <label>
+				<span>Phone:</span>
+		        <input type="tel" placeholder="Please enter your phone" name="phone" id="phone" class="placeholder small-12">
+		        </label>
+		        
+		        <label>
+				<span>Email:</span>
+		        <input type="email" placeholder="youremail@gmail.com" name="email" id="email" required="" class="placeholder small-12">
+		      	</label>
+		      	<label>
+				<span>How did you hear about us?:</span>
+		        <input type="text" placeholder="Google, Facebook, CenterWatch, ClinicalTrials, Directly?" name="hearabout" id="hearabout" required="" class="placeholder small-12">
+		      	</label>
+		      
+				<input class="sendButton" type="submit" name="Submit" value="Send" onclick="_gaq.push(['_trackPageview' ,'/contact-form-submitted/']);">
+					
+			</form>
+			</div>
+              </div>
+          </div>
+        </div>
+    	<button type="button" class="overlay-close2">Close</button>
+    	
+	</div>
     <div id="fullpage">
         
     <div class="row section main-bg fullWidth lazy fp-auto-height-responsive" data-original="img/dirt-bike.jpg" style="background-image: url('img/dirt-bike.jpg');">
@@ -470,6 +536,7 @@
     <script src="js/modernizr.custom.js"></script>
     <script type="text/javascript" src="js/classie.js"></script>
     <script type="text/javascript" src="js/demo1.js"></script>
+    <script type="text/javascript" src="js/demo2.js"></script>
     <script src="bower_components/foundation-sites/dist/foundation.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="bower_components/fullpage.js/jquery.fullPage.js"></script>
