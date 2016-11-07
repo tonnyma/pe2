@@ -37,7 +37,7 @@ function clean_string($string) {
  
 $host = "ssl://secure.emailsrvr.com";
 $username = "infousa@peproblems.com";
-$password = "rpb8tsu3";
+$password = "rPb8t_Su3";
 $port = "465";
 
  

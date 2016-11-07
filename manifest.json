@@ -1,0 +1,9 @@
+{
+  "lang": "en",
+  "name": "mobiForge - Mobile Web Development",
+  "short_name": "mobiForge",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "theme_color": "aliceblue",
+  "background_color": "red"
+}

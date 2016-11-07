@@ -138,6 +138,14 @@ h1{
         right:5%;
         top: 10%;
     }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        right:5%;
+        top: 8%;     
+    }
 }
 .main-bg{
     background-color:tomato;
@@ -191,6 +199,15 @@ h1.wfisnb{
         font-size: 2em;
         line-height: 1.3em;
     }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        font-size: 1.8em;
+        line-height: 1.3em;       
+    }
+   
     & span{
         padding-bottom: 0px;
         border-bottom: 4px solid white;    }
@@ -213,6 +230,13 @@ h1.wfisnb{
         font-size: 1em;
         width: 70%;
     }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        font-size: 1em;
+      }    
     & span{
         color: red;
     }
@@ -260,12 +284,28 @@ h4{
 .p-layout-left{
     background-color: $white;
     height: 100%;
+    
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        width: 100%;
+        padding-bottom: 50px;
+      }	   
 }
 .tw-right{
     background-color: #666581; 
     @media screen and (max-width: 39.9375em) {
      display: none;
-    }	    
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        display: none;
+      }	    
     &-blurb{
         width: 84%;
     	height: 60px;
@@ -285,6 +325,30 @@ h4{
     max-width: 70%;
     margin: 0 auto;
     margin-top: 19%;
+    @media screen and (max-width: 39.9375em) {
+        margin-bottom: 1.6em;
+        max-width:80%;
+        margin-top: 1.6em;
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+        margin-top: 2em;
+      }	   
+}
+fp-tableCell{
+    @media screen and (max-width: 39.9375em) {
+          overflow: visible !important;
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          overflow: visible;
+      }	       
 }
 .intro-blurb{
     font-family: Lato;
@@ -293,7 +357,9 @@ h4{
     line-height: 2em;
     @media screen and (max-width: 39.9375em) {
         margin-bottom:90px;
+        margin-top:-40px;
     }
+    
 }
 .intro-row{
     border-bottom: 2px solid #222222;
@@ -304,6 +370,9 @@ h4{
 .intro-header{
     height: 136px;
     display:flex;
+    @media screen and (max-width: 39.9375em) {
+        height: 80px;
+    }
 }
 .section-anchor, .section-title{
     flex: 0 0 auto;
@@ -316,10 +385,20 @@ h4{
     padding-left: 35px;
     @media screen and (max-width: 39.9375em) {
         padding-left:10px;
+        font-size: 1.9em;
+        padding: 12px;
     }
 }
 .section-anchor{
     width: 90px;
+     @media screen and (max-width: 39.9375em) {
+        width: 65px;
+    }   
+}
+.black-shape-anchor{
+     @media screen and (max-width: 39.9375em) {
+        width: 65px;
+    }   
 }
 .tw-right-foot{
     	font-family: $rajdhani-font;
@@ -348,11 +427,22 @@ h4{
     @media screen and (max-width: 39.9375em) {
         margin-top: 25%;
         margin-bottom:10%;
-    }	
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) {
+         margin-top: 10%;
+         margin-bottom:1%;         
+      }    	
 }
 .wiPE-title h2{
     font-weight: 600;
     font-size:30px;
+     @media screen and (max-width: 39.9375em) {
+        font-size:1.6em;
+    }   
 }
 .wiPE-parent{
     margin: 3% 12% 0 19%;
@@ -404,7 +494,18 @@ h4{
     background-size:cover;
     background-position: 50% 0%;
     @media screen and (max-width: 39.9375em) {
-    }	    
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          background-size: cover;
+          height: 100%;
+          margin: 0;
+          padding: 0;
+      }
+      	    
 }
 .right-title{
     font-family: Rajdhani;
@@ -417,7 +518,17 @@ h4{
     line-height: 1.2em;
     @media screen and (max-width: 39.9375em) {
          margin-top: 50px;
+         margin-left: 10%;
+         margin-right: 10%;
+         font-size: 1.5em;
     }	    
+}
+.info-title, .info-blurb{
+    @media screen and (max-width: 39.9375em) {
+         margin-left: 10% !important;
+         margin-right: 10% !important;
+         font-size: 1.5em;
+    }    
 }
 .right-blurb{
     font-family: Lato;
@@ -429,6 +540,8 @@ h4{
 	margin-right:15%;
     @media screen and (max-width: 39.9375em) {
             margin-bottom:30%;
+            margin-right: 10%;
+            margin-left: 10%;
     }   
 }
 
@@ -437,9 +550,26 @@ h4{
 	background-color: #807f7f;
     @media screen and (max-width: 39.9375em) {
      padding-bottom: 10px;
-    }	        
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          width: 100%;
+          height: 100%;
+      }    	        
 }
-
+.the-study-left{
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          background-size: cover;
+          height: 100%;
+      }
+}
 /* Investigational Section */
 
 .invd-left{
@@ -510,6 +640,15 @@ h4{
 }
 .usa-right{
     background-color: #496f6f;
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          background-size: cover;
+          height: 100%;
+          width: 100%;
+      }
 }
 .country-title{
     background-color: white;
@@ -518,6 +657,9 @@ h4{
     @media screen and (max-width: 39.9375em) {
      position:relative;
      left:-4%;
+     top:-40%;
+     padding: 20px;
+     margin-top: 25px;
     }	    
 }
 .usa-info-listing{
@@ -534,6 +676,25 @@ h4{
 	margin-bottom:0;
 	font-weight: 600;
 	line-height:15px;
+    @media screen and (max-width: 39.9375em) {
+        margin-left:10%;
+    }
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          margin-top: 3em;
+      }
+}
+.listing-padding{
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          margin-top: 2em !important;
+      }    
 }
 .info-title2{
     margin-top:0;
@@ -566,6 +727,13 @@ h4{
 }
 .uk-right{
     background-color: #6a84a1;
+    @media only screen 
+      and (min-device-width: 375px) 
+      and (max-device-width: 667px) 
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: landscape) { 
+          width: 100%;
+      }	  
     }
 .uk-blurb{
     font-size: 13px;
@@ -574,7 +742,12 @@ h4{
 
 .fp-controlArrow.fp-next{
     right: 45px !important;
+    opacity: .4;
 }
+.fp-controlArrow.fp-prev{
+    opacity: .4;	   
+}
+
 .end-slide{
     @media screen and (max-width: 39.9375em) {
      padding-bottom:10%;
@@ -592,9 +765,12 @@ h4{
 
 .overlay{
     z-index: 1000;
+    background-color:rgba(47, 47, 47,.9);
+    overflow-y: hidden;
 }
 .overlay nav{
     font-size: 3em;
+    top: 45%;
     @media screen and (max-width: 39.9375em) {
      font-size: 2em;
          }	
@@ -645,10 +821,23 @@ label span{
 .contact-layout-right{
     padding: 5%;
 }
+#contact_form{
+    @media screen and (max-width: 39.9375em) {
+      margin-left: 5%;
+      margin-right: 5%;
+    }    
+}
+.contact-blurb{
+    margin-bottom: 0px;
+}
 .sendButton{
     width: 163px;
 	height: 50px;
 	border-radius: 2.5px;
 	background-color: #626061;
 	box-shadow: none;
+	border-style: none;
+	color: $white;
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
