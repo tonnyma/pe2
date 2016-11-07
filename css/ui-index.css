@@ -220,6 +220,10 @@ h4 {
   background: url("/img/contact-us-btn.svg");
   background-size: cover; }
 
+@media screen and (max-width: 39.9375em) {
+  .web-contact-info-email {
+    display: none; } }
+
 /* The What Section */
 .the-what-section {
   border-bottom: 1px solid #777; }
@@ -264,7 +268,7 @@ h4 {
     .intro-block {
       margin-bottom: 1.6em;
       max-width: 80%;
-      margin-top: 1.6em; } }
+      margin-top: 3em; } }
   @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
     .intro-block {
       margin-top: 2em; } }

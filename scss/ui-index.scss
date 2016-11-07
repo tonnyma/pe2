@@ -111,6 +111,7 @@ $rajdhani-font: 'Rajdhani', sans-serif;
 	font-weight: 900;
 	font-style: italic;
 }
+
 #fullpage{
     max-width: 1920px;
     margin: 0 auto;
@@ -267,13 +268,21 @@ h4{
         cursor: hand;
     }
 }
+
 .contact-us-btn{
     height: 50px;
     width: 165px;
     background:url('/img/contact-us-btn.svg');
     background-size:cover;
 }
+.web-contact-info{
+    &-email{
+       @media screen and (max-width: 39.9375em) {
+       display: none;
+      }    
+    }
 
+}
 /* The What Section */
 .the-what-section{
     border-bottom:1px solid #777;
@@ -328,7 +337,7 @@ h4{
     @media screen and (max-width: 39.9375em) {
         margin-bottom: 1.6em;
         max-width:80%;
-        margin-top: 1.6em;
+        margin-top: 3em;
     }
     @media only screen 
       and (min-device-width: 375px) 
